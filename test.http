@@ -2,13 +2,13 @@
 GET http://localhost:4040/all
 
 ### obtener estudiante por rut
-GET http://localhost:4040/12345678-9
+GET http://localhost:4040/11111111-1
 
 ### insertar un nuevo estudiante o nuevos estudiantes en la tabla
 POST http://localhost:4040/insert
 
 ### actualizar registro de un estudiante
-PUT http://localhost:4040/update
+PUT http://localhost:4040/update/11222333-4?nombre=Alberto
 
 ### eliminar registro de un estudiante
-DELETE http://localhost:4040/delete
+DELETE http://localhost:4040/delete/11111111-1
